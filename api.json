@@ -1,0 +1,40 @@
+[{
+        "description": "Fecha de publicación original: 2009",
+        "id": 1,
+        "title": "Buda Blues",
+        "thumbnailUrl": "./assets/img/covers/Lady_Masacre_Cover.jpg"
+
+    },
+    {
+        "description": "Fecha de publicación original: 2019",
+        "id": 2,
+        "title": "Akelarre",
+        "thumbnailUrl": "./assets/img/covers/Akelarre_Cover.jpg"
+    },
+    {
+        "description": "Fecha de publicación original: 2011",
+        "id": 3,
+        "title": "Apocalipsis",
+        "thumbnailUrl": "./assets/img/covers/Apocalipsis_Cover.jpg"
+    },
+    {
+        "description": "Fecha de publicación original: 2009",
+        "id": 4,
+        "title": "Buda Blues",
+        "thumbnailUrl": "./assets/img/covers/budablues.gif"
+
+    },
+    {
+        "description": "Fecha de publicación original: 2019",
+        "id": 5,
+        "title": "Akelarre",
+        "thumbnailUrl": "./assets/img/covers/Akelarre_V2_Cover.jpg"
+    },
+    {
+        "description": "Fecha de publicación original: 2011",
+        "id": 6,
+        "title": "Apocalipsis",
+        "thumbnailUrl": "./assets/img/covers/apocalipsis.gif"
+    }
+    
+]

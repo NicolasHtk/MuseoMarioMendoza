@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/popup.css">
+
+</head>
+
+<body class="parallax">
+
+    <nav class="navbar navbar-expand-lg navbar-dark color-bg">
+        <a class="navbar-brand" href="/">Museo Mario Mendoza</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <section class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contactenos</a>
+                </li>
+
+            </ul>
+        </section>
+    </nav>
+
+    <main class="page container mycontainer">
+
+        <section id="logo" class="text-center color-bg mt-5 pb-3">
+            <img src="assets/img/logos/banner.png" class="logo" alt="logo" />
+        </section>
+<div class="text-center">
+    <button id="btn-up" class="btn btn-light btn-up">El Autor</button>
+    <button id="btn-up" class="btn btn-light">Sus Obras</button>
+    <button id="btn-up" class="btn btn-light">Sus Premios</button>
+</div>
+
+
+
+        <section id="text" class="container-md ">
+            <article class="container text-center m-4 p-1">
+            </article>
+            <div class="row" id="cards"></div>
+        </section>
+
+
+        <template id="template-card">
+            <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="card p-2 shadow mb-5">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5></h5>
+                        <p></p>
+                        <button id="btn-up" class="btn btn-outline-primary"></button>
+
+                    </div>
+                </div>
+            </div>
+        </template>
+
+
+    </main>
+    <hr>
+
+
+
+
+    <footer class="navbar bottom color-bg">
+        <p class="container-fluid text-center">
+            COPYRIGHT © 2022 Nicolas Porras, ALL RIGHTS RESERVED
+            <a href="#top">Back to top</a>
+        </p>
+    </footer>
+
+    <div class="popup-wrapper">
+        <div class="popup">
+            <div class="popup-close"></div>
+            <div class="popup-content">
+                <h3 class="text-dark">Mario Mendoza</h3>
+                <p>Mario Mendoza Zambrano (Bogotá, 10 de enero de 1964)1​ es un escritor, catedrático y periodista colombiano</p>
+                <img class="face" src="./assets/img/Mario_Mendoza.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
