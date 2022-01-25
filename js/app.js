@@ -27,13 +27,18 @@ const printCard = data => {
         templateCard.querySelector('h5').textContent = product.title
         templateCard.querySelector('p').textContent = product.description
         templateCard.querySelector('img').setAttribute("src", product.thumbnailUrl)
-        templateCard.querySelector('.btn').textContent = "Ver más"
+        templateCard.querySelector('#btn-up').textContent = "Ver más"
+        templateCard.querySelector('#btn-up').setAttribute("data-bs-target", product.modal)
+        // templateCard.querySelector('#modal-title').textContent = product.title
         const clone = templateCard.cloneNode(true)
         fragment.appendChild(clone)
     })
 
     cards.appendChild(fragment)
 }
+
+
+
 
 button.addEventListener('click', () => {
     popup.style.display = 'block';

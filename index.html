@@ -50,8 +50,6 @@
         </section>
         <div class="text-center">
             <button id="btn-up" class="btn btn-light btn-up">El Autor</button>
-            <button id="btn-up" class="btn btn-light">Sus Obras</button>
-            <button id="btn-up" class="btn btn-light">Sus Premios</button>
         </div>
 
 
@@ -70,12 +68,113 @@
                     <div class="card-body text-center">
                         <h5></h5>
                         <p></p>
-                        <button id="btn-up" class="btn btn-outline-primary"></button>
+
+                        <!-- Button trigger modal -->
+
+                        <!-- Button trigger modal -->
+                        <button type="button" id="btn-up" class="btn btn-outline-primary" data-bs-toggle="modal"
+                            data-bs-target="#modal-1">
+                            title by js
+                        </button>
+
 
                     </div>
                 </div>
             </div>
         </template>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal-title">Información de Buda Blues</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Editorial: Editorial Planeta <br>
+                        Temática: Novela literaria <br>
+                        Colección: Fuera de colección <br>
+                        Número de páginas: 277 <br>
+                        Sinopsis de Buda Blues: <br>
+                        <br>
+                        Este, sin duda, es el libro más explosivo y totalizante de Mario Mendoza. Un desgarrador aullido
+                        contra la sociedad y la especie, contra la desigualdad y la brutalidad, contra el capitalismo y
+                        sus vergüenzas, contra el American way of life, contra las convenciones.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal-title">Información de Akelarre</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Editorial: Editorial Planeta <br>
+                        Temática: Novela literaria <br>
+                        Colección: Fuera de colección<br>
+                        Sinopsis de Akelarre:<br>
+                        “Los caminos que nos conducen al infierno son sinuosos, retorcidos y laberínticos”.<br>
+                        <br>
+                        Al investigador privado Frank Molina, borracho, marihuanero y paciente psiquiátrico, lo alcanza
+                        su pasado con una cuenta de cobro cuando la policía lo llama para que los asesore con unos
+                        extraños asesinatos que tuvieron lugar en el barrio Santa Fe. Un imitador de Jack el Destripador
+                        está inmerso en una auténtica orgía de sangre y mata prostitutas sin contemplación. Mientras
+                        Molina sigue pistas de un extremo a otro de la capital para dar con el criminal, sus pasos se
+                        cruzan con los de su mentor, un sacerdote atormentado por los secretos que esconde de su
+                        juventud. Y al fondo de este cuadro gótico de la ciudad contemporánea, una joven pintora
+                        descubre que no es una artista, sino una hechicera que atesora poderes ancestrales.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal-title">Información de Apocalipsis</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Editorial: Editorial Planeta <br>
+                        Temática: Novela contemporánea<br>
+                        Colección: Fuera de colección<br>
+                        Número de páginas: 296<br>
+                        Sinopsis de Apocalipsis:<br>
+                        <br>
+                        Hasta el momento en que su padre decide suicidarse, la vida de Marcos parece normal. Va al
+                        colegio, lee novelas de aventuras, tiene su grupo de amigos, de vez en cuando le ayuda a su
+                        viejo en la tienda de barrio que les da de comer.<br>
+                        <br>
+                        Sin embargo, a partir de ese día, Marcos debe convertirse en hombre y valerse por sí mismo. Una
+                        apasionante historia se desata cuando descubre que, en un oscuro y alejado centro para enfermos
+                        mentales, vive un hermano suyo del que no tenía noticia, un personaje luminoso que le cambiará
+                        la vida para siempre. A partir de ese instante, los acontecimientos se convierten en una carrera
+                        desaforada, en un acontecer atropellado y surcado por el misterio. En ese constante trasegar, la
+                        reaparición de un rito prohibido muy antiguo le da un giro definitivo a la historia. Marcos se
+                        adentrará, entonces, en los espacios más recónditos del alma humana.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
 
     </main>
@@ -104,7 +203,9 @@
     </div>
 
     <script src="js/app.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
